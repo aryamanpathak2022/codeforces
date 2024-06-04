@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "xlocale": "cpp",
+        "xstring": "cpp",
+        "vector": "cpp",
+        "list": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "xhash": "cpp",
+        "xutility": "cpp",
+        "cmath": "cpp",
+        "algorithm": "cpp",
+        "limits": "cpp",
+        "utility": "cpp",
+        "cstdlib": "cpp"
+    }
+}
