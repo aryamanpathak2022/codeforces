@@ -14,6 +14,8 @@
         "algorithm": "cpp",
         "limits": "cpp",
         "utility": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "xtree": "cpp",
+        "ostream": "cpp"
     }
 }
