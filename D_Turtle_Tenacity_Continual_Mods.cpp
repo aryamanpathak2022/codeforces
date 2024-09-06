@@ -1,4 +1,4 @@
-#include<bits/stc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 
@@ -12,7 +12,18 @@ void solve()
     {
         cin>>arr[i];
     }
-    
+    sort(arr.begin(),arr.end());
+        if(arr[0] != arr[1]) {
+            cout << "YES\n";
+        }
+        else {
+            bool PASS = 0;
+            for(int i=1; i<n; i++) {
+                if(arr[i] % arr[0] != 0) PASS = 1;
+            }
+            if(PASS) cout << "YES\n";
+            else cout << "NO\n";
+        }
 }
 
 int main()
